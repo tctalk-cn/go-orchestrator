@@ -1,0 +1,26 @@
+{
+  "BackendDB": "mysql",
+
+  "MySQLOrchestratorHost": "127.0.0.1",
+  "MySQLOrchestratorPort": 3306,
+  "MySQLOrchestratorUser": "root",
+  "MySQLOrchestratorPassword": "admin1234",
+  "MySQLOrchestratorDatabase": "orchestrator",
+  "MySQLOrchestratorConnMaxLifetimeSeconds": 300,
+
+  "MySQLTopologyUser": "root",
+  "MySQLTopologyPassword": "admin1234",
+
+  "DiscoverByShowSlaveHosts": true,
+  "DiscoverByShowReplicaHosts": true,
+  "DiscoverByShowProcesslist": true,
+
+  "AutoDiscover": true,
+
+  "Debug": true,
+
+  "ApiServer": {
+    "ApiPort": 3000,
+    "UseSSL": false
+  }
+}
